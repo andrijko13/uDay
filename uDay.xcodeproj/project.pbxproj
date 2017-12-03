@@ -16,6 +16,10 @@
 		3215A3DF1FD35C3500E0215C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A3DE1FD35C3500E0215C /* main.m */; };
 		3215A3E91FD35C3500E0215C /* uDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A3E81FD35C3500E0215C /* uDayTests.m */; };
 		3215A3F41FD35C3500E0215C /* uDayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A3F31FD35C3500E0215C /* uDayUITests.m */; };
+		3215A4031FD370DA00E0215C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A4021FD370DA00E0215C /* ThirdViewController.m */; };
+		3215A40B1FD3722900E0215C /* Styler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A40A1FD3722900E0215C /* Styler.m */; };
+		328B7CFC1FD3A9C800CCE064 /* UIViewController+Styler.m in Sources */ = {isa = PBXBuildFile; fileRef = 328B7CFB1FD3A9C800CCE064 /* UIViewController+Styler.m */; };
+		328B7CFF1FD3B8FC00CCE064 /* InfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 328B7CFD1FD3B8FC00CCE064 /* InfiniteScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,15 @@
 		3215A3EF1FD35C3500E0215C /* uDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3215A3F31FD35C3500E0215C /* uDayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uDayUITests.m; sourceTree = "<group>"; };
 		3215A3F51FD35C3500E0215C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3215A4011FD370DA00E0215C /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		3215A4021FD370DA00E0215C /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		3215A4091FD3722900E0215C /* Styler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Styler.h; sourceTree = "<group>"; };
+		3215A40A1FD3722900E0215C /* Styler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Styler.m; sourceTree = "<group>"; };
+		328B7CFA1FD3A88200CCE064 /* UIViewController+Styler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Styler.h"; sourceTree = "<group>"; };
+		328B7CFB1FD3A9C800CCE064 /* UIViewController+Styler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Styler.m"; sourceTree = "<group>"; };
+		328B7CFD1FD3B8FC00CCE064 /* InfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfiniteScrollView.m; path = ../../../../../../Downloads/StreetScroller/StreetScroller/InfiniteScrollView.m; sourceTree = "<group>"; };
+		328B7CFE1FD3B8FC00CCE064 /* InfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfiniteScrollView.h; path = ../../../../../../Downloads/StreetScroller/StreetScroller/InfiniteScrollView.h; sourceTree = "<group>"; };
+		328B7D421FD4A67B00CCE064 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +101,7 @@
 				3215A3E71FD35C3500E0215C /* uDayTests */,
 				3215A3F21FD35C3500E0215C /* uDayUITests */,
 				3215A3CA1FD35C3500E0215C /* Products */,
+				328B7D411FD4A67B00CCE064 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +118,12 @@
 		3215A3CB1FD35C3500E0215C /* uDay */ = {
 			isa = PBXGroup;
 			children = (
-				3215A3CC1FD35C3500E0215C /* AppDelegate.h */,
-				3215A3CD1FD35C3500E0215C /* AppDelegate.m */,
-				3215A3CF1FD35C3500E0215C /* FirstViewController.h */,
-				3215A3D01FD35C3500E0215C /* FirstViewController.m */,
-				3215A3D21FD35C3500E0215C /* SecondViewController.h */,
-				3215A3D31FD35C3500E0215C /* SecondViewController.m */,
-				3215A3D51FD35C3500E0215C /* Main.storyboard */,
-				3215A3D81FD35C3500E0215C /* Assets.xcassets */,
-				3215A3DA1FD35C3500E0215C /* LaunchScreen.storyboard */,
 				3215A3DD1FD35C3500E0215C /* Info.plist */,
-				3215A3DE1FD35C3500E0215C /* main.m */,
+				3215A3D81FD35C3500E0215C /* Assets.xcassets */,
+				3215A4051FD370F200E0215C /* Shared */,
+				3215A4041FD370DE00E0215C /* ViewControllers */,
+				3215A4061FD3710D00E0215C /* Storyboards */,
+				3215A4081FD3712C00E0215C /* dev */,
 			);
 			path = uDay;
 			sourceTree = "<group>";
@@ -135,6 +144,83 @@
 				3215A3F51FD35C3500E0215C /* Info.plist */,
 			);
 			path = uDayUITests;
+			sourceTree = "<group>";
+		};
+		3215A4041FD370DE00E0215C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				328B7CF91FD3A84600CCE064 /* Extensions */,
+				328B7CF71FD3A82600CCE064 /* Tabs */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3215A4051FD370F200E0215C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3215A3CC1FD35C3500E0215C /* AppDelegate.h */,
+				3215A3CD1FD35C3500E0215C /* AppDelegate.m */,
+				3215A4091FD3722900E0215C /* Styler.h */,
+				3215A40A1FD3722900E0215C /* Styler.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3215A4061FD3710D00E0215C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3215A4071FD3711700E0215C /* Main */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3215A4071FD3711700E0215C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3215A3D51FD35C3500E0215C /* Main.storyboard */,
+				3215A3DA1FD35C3500E0215C /* LaunchScreen.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3215A4081FD3712C00E0215C /* dev */ = {
+			isa = PBXGroup;
+			children = (
+				3215A3DE1FD35C3500E0215C /* main.m */,
+			);
+			path = dev;
+			sourceTree = "<group>";
+		};
+		328B7CF71FD3A82600CCE064 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				328B7CFE1FD3B8FC00CCE064 /* InfiniteScrollView.h */,
+				328B7CFD1FD3B8FC00CCE064 /* InfiniteScrollView.m */,
+				3215A3CF1FD35C3500E0215C /* FirstViewController.h */,
+				3215A3D01FD35C3500E0215C /* FirstViewController.m */,
+				3215A3D21FD35C3500E0215C /* SecondViewController.h */,
+				3215A3D31FD35C3500E0215C /* SecondViewController.m */,
+				3215A4011FD370DA00E0215C /* ThirdViewController.h */,
+				3215A4021FD370DA00E0215C /* ThirdViewController.m */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		328B7CF91FD3A84600CCE064 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				328B7CFA1FD3A88200CCE064 /* UIViewController+Styler.h */,
+				328B7CFB1FD3A9C800CCE064 /* UIViewController+Styler.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		328B7D411FD4A67B00CCE064 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				328B7D421FD4A67B00CCE064 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,9 +357,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3215A3D41FD35C3500E0215C /* SecondViewController.m in Sources */,
+				3215A4031FD370DA00E0215C /* ThirdViewController.m in Sources */,
+				328B7CFC1FD3A9C800CCE064 /* UIViewController+Styler.m in Sources */,
 				3215A3CE1FD35C3500E0215C /* AppDelegate.m in Sources */,
 				3215A3DF1FD35C3500E0215C /* main.m in Sources */,
+				3215A40B1FD3722900E0215C /* Styler.m in Sources */,
 				3215A3D11FD35C3500E0215C /* FirstViewController.m in Sources */,
+				328B7CFF1FD3B8FC00CCE064 /* InfiniteScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
