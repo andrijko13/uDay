@@ -19,7 +19,7 @@
 		3215A4031FD370DA00E0215C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A4021FD370DA00E0215C /* ThirdViewController.m */; };
 		3215A40B1FD3722900E0215C /* Styler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A40A1FD3722900E0215C /* Styler.m */; };
 		328B7CFC1FD3A9C800CCE064 /* UIViewController+Styler.m in Sources */ = {isa = PBXBuildFile; fileRef = 328B7CFB1FD3A9C800CCE064 /* UIViewController+Styler.m */; };
-		328B7CFF1FD3B8FC00CCE064 /* InfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 328B7CFD1FD3B8FC00CCE064 /* InfiniteScrollView.m */; };
+		328B7D451FD4BFA800CCE064 /* User.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 328B7D431FD4BFA800CCE064 /* User.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,9 +64,8 @@
 		3215A40A1FD3722900E0215C /* Styler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Styler.m; sourceTree = "<group>"; };
 		328B7CFA1FD3A88200CCE064 /* UIViewController+Styler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Styler.h"; sourceTree = "<group>"; };
 		328B7CFB1FD3A9C800CCE064 /* UIViewController+Styler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Styler.m"; sourceTree = "<group>"; };
-		328B7CFD1FD3B8FC00CCE064 /* InfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfiniteScrollView.m; path = ../../../../../../Downloads/StreetScroller/StreetScroller/InfiniteScrollView.m; sourceTree = "<group>"; };
-		328B7CFE1FD3B8FC00CCE064 /* InfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfiniteScrollView.h; path = ../../../../../../Downloads/StreetScroller/StreetScroller/InfiniteScrollView.h; sourceTree = "<group>"; };
 		328B7D421FD4A67B00CCE064 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		328B7D441FD4BFA800CCE064 /* User.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = User.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +161,7 @@
 				3215A3CD1FD35C3500E0215C /* AppDelegate.m */,
 				3215A4091FD3722900E0215C /* Styler.h */,
 				3215A40A1FD3722900E0215C /* Styler.m */,
+				328B7D431FD4BFA800CCE064 /* User.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -194,8 +194,6 @@
 		328B7CF71FD3A82600CCE064 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
-				328B7CFE1FD3B8FC00CCE064 /* InfiniteScrollView.h */,
-				328B7CFD1FD3B8FC00CCE064 /* InfiniteScrollView.m */,
 				3215A3CF1FD35C3500E0215C /* FirstViewController.h */,
 				3215A3D01FD35C3500E0215C /* FirstViewController.m */,
 				3215A3D21FD35C3500E0215C /* SecondViewController.h */,
@@ -362,8 +360,8 @@
 				3215A3CE1FD35C3500E0215C /* AppDelegate.m in Sources */,
 				3215A3DF1FD35C3500E0215C /* main.m in Sources */,
 				3215A40B1FD3722900E0215C /* Styler.m in Sources */,
+				328B7D451FD4BFA800CCE064 /* User.xcdatamodeld in Sources */,
 				3215A3D11FD35C3500E0215C /* FirstViewController.m in Sources */,
-				328B7CFF1FD3B8FC00CCE064 /* InfiniteScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,6 +646,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		328B7D431FD4BFA800CCE064 /* User.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				328B7D441FD4BFA800CCE064 /* User.xcdatamodel */,
+			);
+			currentVersion = 328B7D441FD4BFA800CCE064 /* User.xcdatamodel */;
+			path = User.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3215A3C11FD35C3400E0215C /* Project object */;
 }

@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "UIViewController+Styler.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController {
+    NSMutableArray *goals;
+}
 @property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @end
 
