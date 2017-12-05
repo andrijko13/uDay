@@ -37,7 +37,7 @@
             return [UIColor lightGrayColor];
             break;
         case DarkGray:
-            return [UIColor grayColor];
+            return [UIColor colorWithRed:55.0f/255.0f green:55.0f/255.0f blue:55.0f/255.0f alpha:1.0f];
             break;
         case Black:
             return [UIColor blackColor];

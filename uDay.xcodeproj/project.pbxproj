@@ -20,6 +20,7 @@
 		3215A40B1FD3722900E0215C /* Styler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A40A1FD3722900E0215C /* Styler.m */; };
 		328B7CFC1FD3A9C800CCE064 /* UIViewController+Styler.m in Sources */ = {isa = PBXBuildFile; fileRef = 328B7CFB1FD3A9C800CCE064 /* UIViewController+Styler.m */; };
 		328B7D451FD4BFA800CCE064 /* User.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 328B7D431FD4BFA800CCE064 /* User.xcdatamodeld */; };
+		328B7D4A1FD73D5E00CCE064 /* GoalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 328B7D491FD73D5E00CCE064 /* GoalTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		328B7CFB1FD3A9C800CCE064 /* UIViewController+Styler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Styler.m"; sourceTree = "<group>"; };
 		328B7D421FD4A67B00CCE064 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		328B7D441FD4BFA800CCE064 /* User.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = User.xcdatamodel; sourceTree = "<group>"; };
+		328B7D481FD73D5E00CCE064 /* GoalTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoalTableViewCell.h; sourceTree = "<group>"; };
+		328B7D491FD73D5E00CCE064 /* GoalTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoalTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,7 @@
 			children = (
 				3215A3DD1FD35C3500E0215C /* Info.plist */,
 				3215A3D81FD35C3500E0215C /* Assets.xcassets */,
+				328B7D471FD73D3900CCE064 /* Views */,
 				3215A4051FD370F200E0215C /* Shared */,
 				3215A4041FD370DE00E0215C /* ViewControllers */,
 				3215A4061FD3710D00E0215C /* Storyboards */,
@@ -219,6 +223,15 @@
 				328B7D421FD4A67B00CCE064 /* CoreData.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		328B7D471FD73D3900CCE064 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				328B7D481FD73D5E00CCE064 /* GoalTableViewCell.h */,
+				328B7D491FD73D5E00CCE064 /* GoalTableViewCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +373,7 @@
 				3215A3CE1FD35C3500E0215C /* AppDelegate.m in Sources */,
 				3215A3DF1FD35C3500E0215C /* main.m in Sources */,
 				3215A40B1FD3722900E0215C /* Styler.m in Sources */,
+				328B7D4A1FD73D5E00CCE064 /* GoalTableViewCell.m in Sources */,
 				328B7D451FD4BFA800CCE064 /* User.xcdatamodeld in Sources */,
 				3215A3D11FD35C3500E0215C /* FirstViewController.m in Sources */,
 			);

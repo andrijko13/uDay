@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "UIViewController+Styler.h"
+#import "GoalTableViewCell.h"
 
-@interface FirstViewController : UIViewController {
+@interface FirstViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
     NSMutableArray *goals;
 }
 @property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
