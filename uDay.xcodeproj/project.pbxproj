@@ -10,7 +10,6 @@
 		3215A3CE1FD35C3500E0215C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A3CD1FD35C3500E0215C /* AppDelegate.m */; };
 		3215A3D11FD35C3500E0215C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A3D01FD35C3500E0215C /* FirstViewController.m */; };
 		3215A3D41FD35C3500E0215C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A3D31FD35C3500E0215C /* SecondViewController.m */; };
-		3215A3D71FD35C3500E0215C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3215A3D51FD35C3500E0215C /* Main.storyboard */; };
 		3215A3D91FD35C3500E0215C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3215A3D81FD35C3500E0215C /* Assets.xcassets */; };
 		3215A3DC1FD35C3500E0215C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3215A3DA1FD35C3500E0215C /* LaunchScreen.storyboard */; };
 		3215A3DF1FD35C3500E0215C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A3DE1FD35C3500E0215C /* main.m */; };
@@ -18,9 +17,26 @@
 		3215A3F41FD35C3500E0215C /* uDayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A3F31FD35C3500E0215C /* uDayUITests.m */; };
 		3215A4031FD370DA00E0215C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A4021FD370DA00E0215C /* ThirdViewController.m */; };
 		3215A40B1FD3722900E0215C /* Styler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A40A1FD3722900E0215C /* Styler.m */; };
+		326F916B2020316800BE4981 /* EntryNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 326F916A2020316800BE4981 /* EntryNavigationController.m */; };
+		326F916E2020369A00BE4981 /* UITextField+Placeholders.m in Sources */ = {isa = PBXBuildFile; fileRef = 326F916D2020369A00BE4981 /* UITextField+Placeholders.m */; };
 		328B7CFC1FD3A9C800CCE064 /* UIViewController+Styler.m in Sources */ = {isa = PBXBuildFile; fileRef = 328B7CFB1FD3A9C800CCE064 /* UIViewController+Styler.m */; };
 		328B7D451FD4BFA800CCE064 /* User.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 328B7D431FD4BFA800CCE064 /* User.xcdatamodeld */; };
 		328B7D4A1FD73D5E00CCE064 /* GoalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 328B7D491FD73D5E00CCE064 /* GoalTableViewCell.m */; };
+		32D4490B20267217002E0685 /* CustomizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D4490A20267217002E0685 /* CustomizeViewController.m */; };
+		32D4490E202A5B20002E0685 /* CustomizeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D4490D202A5B20002E0685 /* CustomizeCollectionViewCell.m */; };
+		32D44911202A5D86002E0685 /* UIImage+Insets.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D44910202A5D86002E0685 /* UIImage+Insets.m */; };
+		32D44917202CDA1D002E0685 /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D44916202CDA1D002E0685 /* DataStore.m */; };
+		32D4491C202CDCC2002E0685 /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D4491B202CDCC2002E0685 /* Entry.m */; };
+		32E641F12020D5D00003F6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E641F02020D5D00003F6BC /* Main.storyboard */; };
+		32E6422620212BA30003F6BC /* TImelineEntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E6422520212BA30003F6BC /* TImelineEntryController.m */; };
+		32E8F71C20334889009BBB18 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D44912202CD67A002E0685 /* Realm.framework */; };
+		32E8F71D20334889009BBB18 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32D44912202CD67A002E0685 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32E8F722203348B4009BBB18 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322294EA2010FCEC005BDDBB /* MapKit.framework */; };
+		32E8F723203348BA009BBB18 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328B7D421FD4A67B00CCE064 /* CoreData.framework */; };
+		32E8F72920336773009BBB18 /* RLMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E8F72820336773009BBB18 /* RLMImage.m */; };
+		32E8F72C20336AAB009BBB18 /* RLMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E8F72B20336AAB009BBB18 /* RLMLocation.m */; };
+		32E8F72F203394A2009BBB18 /* AddToMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E8F72E203394A2009BBB18 /* AddToMapViewController.m */; };
+		32E8F73220361447009BBB18 /* MainUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E8F73120361447009BBB18 /* MainUIDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +56,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		322294ED2010FCF3005BDDBB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				32E8F71D20334889009BBB18 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		3215A3C91FD35C3500E0215C /* uDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3215A3CC1FD35C3500E0215C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,7 +78,6 @@
 		3215A3D01FD35C3500E0215C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		3215A3D21FD35C3500E0215C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		3215A3D31FD35C3500E0215C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		3215A3D61FD35C3500E0215C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3215A3D81FD35C3500E0215C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3215A3DB1FD35C3500E0215C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3215A3DD1FD35C3500E0215C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,12 +92,39 @@
 		3215A4021FD370DA00E0215C /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		3215A4091FD3722900E0215C /* Styler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Styler.h; sourceTree = "<group>"; };
 		3215A40A1FD3722900E0215C /* Styler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Styler.m; sourceTree = "<group>"; };
+		322294EA2010FCEC005BDDBB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		326F91692020316800BE4981 /* EntryNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryNavigationController.h; sourceTree = "<group>"; };
+		326F916A2020316800BE4981 /* EntryNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntryNavigationController.m; sourceTree = "<group>"; };
+		326F916C2020369A00BE4981 /* UITextField+Placeholders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Placeholders.h"; sourceTree = "<group>"; };
+		326F916D2020369A00BE4981 /* UITextField+Placeholders.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholders.m"; sourceTree = "<group>"; };
 		328B7CFA1FD3A88200CCE064 /* UIViewController+Styler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Styler.h"; sourceTree = "<group>"; };
 		328B7CFB1FD3A9C800CCE064 /* UIViewController+Styler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Styler.m"; sourceTree = "<group>"; };
 		328B7D421FD4A67B00CCE064 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		328B7D441FD4BFA800CCE064 /* User.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = User.xcdatamodel; sourceTree = "<group>"; };
 		328B7D481FD73D5E00CCE064 /* GoalTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoalTableViewCell.h; sourceTree = "<group>"; };
 		328B7D491FD73D5E00CCE064 /* GoalTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoalTableViewCell.m; sourceTree = "<group>"; };
+		32D4490920267217002E0685 /* CustomizeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomizeViewController.h; sourceTree = "<group>"; };
+		32D4490A20267217002E0685 /* CustomizeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomizeViewController.m; sourceTree = "<group>"; };
+		32D4490C202A5B20002E0685 /* CustomizeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomizeCollectionViewCell.h; sourceTree = "<group>"; };
+		32D4490D202A5B20002E0685 /* CustomizeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomizeCollectionViewCell.m; sourceTree = "<group>"; };
+		32D4490F202A5D86002E0685 /* UIImage+Insets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Insets.h"; sourceTree = "<group>"; };
+		32D44910202A5D86002E0685 /* UIImage+Insets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Insets.m"; sourceTree = "<group>"; };
+		32D44912202CD67A002E0685 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		32D44915202CDA1D002E0685 /* DataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
+		32D44916202CDA1D002E0685 /* DataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
+		32D4491A202CDCC2002E0685 /* Entry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
+		32D4491B202CDCC2002E0685 /* Entry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Entry.m; sourceTree = "<group>"; };
+		32E641F02020D5D00003F6BC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		32E6422420212BA30003F6BC /* TImelineEntryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TImelineEntryController.h; sourceTree = "<group>"; };
+		32E6422520212BA30003F6BC /* TImelineEntryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TImelineEntryController.m; sourceTree = "<group>"; };
+		32E8F72720336773009BBB18 /* RLMImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMImage.h; sourceTree = "<group>"; };
+		32E8F72820336773009BBB18 /* RLMImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLMImage.m; sourceTree = "<group>"; };
+		32E8F72A20336AAB009BBB18 /* RLMLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMLocation.h; sourceTree = "<group>"; };
+		32E8F72B20336AAB009BBB18 /* RLMLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLMLocation.m; sourceTree = "<group>"; };
+		32E8F72D203394A2009BBB18 /* AddToMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddToMapViewController.h; sourceTree = "<group>"; };
+		32E8F72E203394A2009BBB18 /* AddToMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddToMapViewController.m; sourceTree = "<group>"; };
+		32E8F73020361447009BBB18 /* MainUIDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainUIDelegate.h; sourceTree = "<group>"; };
+		32E8F73120361447009BBB18 /* MainUIDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainUIDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +132,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E8F723203348BA009BBB18 /* CoreData.framework in Frameworks */,
+				32E8F722203348B4009BBB18 /* MapKit.framework in Frameworks */,
+				32E8F71C20334889009BBB18 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +185,7 @@
 				3215A4051FD370F200E0215C /* Shared */,
 				3215A4041FD370DE00E0215C /* ViewControllers */,
 				3215A4061FD3710D00E0215C /* Storyboards */,
+				32D44919202CDC5F002E0685 /* Models */,
 				3215A4081FD3712C00E0215C /* dev */,
 			);
 			path = uDay;
@@ -163,6 +223,10 @@
 			children = (
 				3215A3CC1FD35C3500E0215C /* AppDelegate.h */,
 				3215A3CD1FD35C3500E0215C /* AppDelegate.m */,
+				32D44915202CDA1D002E0685 /* DataStore.h */,
+				32D44916202CDA1D002E0685 /* DataStore.m */,
+				32E8F73020361447009BBB18 /* MainUIDelegate.h */,
+				32E8F73120361447009BBB18 /* MainUIDelegate.m */,
 				3215A4091FD3722900E0215C /* Styler.h */,
 				3215A40A1FD3722900E0215C /* Styler.m */,
 				328B7D431FD4BFA800CCE064 /* User.xcdatamodeld */,
@@ -181,8 +245,8 @@
 		3215A4071FD3711700E0215C /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				3215A3D51FD35C3500E0215C /* Main.storyboard */,
 				3215A3DA1FD35C3500E0215C /* LaunchScreen.storyboard */,
+				32E641F02020D5D00003F6BC /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -195,15 +259,47 @@
 			path = dev;
 			sourceTree = "<group>";
 		};
-		328B7CF71FD3A82600CCE064 /* Tabs */ = {
+		326F916620202D4B00BE4981 /* Timeline */ = {
 			isa = PBXGroup;
 			children = (
 				3215A3CF1FD35C3500E0215C /* FirstViewController.h */,
 				3215A3D01FD35C3500E0215C /* FirstViewController.m */,
-				3215A3D21FD35C3500E0215C /* SecondViewController.h */,
-				3215A3D31FD35C3500E0215C /* SecondViewController.m */,
 				3215A4011FD370DA00E0215C /* ThirdViewController.h */,
 				3215A4021FD370DA00E0215C /* ThirdViewController.m */,
+				32E6422420212BA30003F6BC /* TImelineEntryController.h */,
+				32E6422520212BA30003F6BC /* TImelineEntryController.m */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		326F916720202D5300BE4981 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				3215A3D21FD35C3500E0215C /* SecondViewController.h */,
+				3215A3D31FD35C3500E0215C /* SecondViewController.m */,
+				32D4490920267217002E0685 /* CustomizeViewController.h */,
+				32D4490A20267217002E0685 /* CustomizeViewController.m */,
+				32E8F72D203394A2009BBB18 /* AddToMapViewController.h */,
+				32E8F72E203394A2009BBB18 /* AddToMapViewController.m */,
+				326F91692020316800BE4981 /* EntryNavigationController.h */,
+				326F916A2020316800BE4981 /* EntryNavigationController.m */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		326F916820202D5700BE4981 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		328B7CF71FD3A82600CCE064 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				326F916620202D4B00BE4981 /* Timeline */,
+				326F916720202D5300BE4981 /* Entry */,
+				326F916820202D5700BE4981 /* Settings */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -213,6 +309,10 @@
 			children = (
 				328B7CFA1FD3A88200CCE064 /* UIViewController+Styler.h */,
 				328B7CFB1FD3A9C800CCE064 /* UIViewController+Styler.m */,
+				326F916C2020369A00BE4981 /* UITextField+Placeholders.h */,
+				326F916D2020369A00BE4981 /* UITextField+Placeholders.m */,
+				32D4490F202A5D86002E0685 /* UIImage+Insets.h */,
+				32D44910202A5D86002E0685 /* UIImage+Insets.m */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -220,7 +320,9 @@
 		328B7D411FD4A67B00CCE064 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				322294EA2010FCEC005BDDBB /* MapKit.framework */,
 				328B7D421FD4A67B00CCE064 /* CoreData.framework */,
+				32D44912202CD67A002E0685 /* Realm.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,8 +332,23 @@
 			children = (
 				328B7D481FD73D5E00CCE064 /* GoalTableViewCell.h */,
 				328B7D491FD73D5E00CCE064 /* GoalTableViewCell.m */,
+				32D4490C202A5B20002E0685 /* CustomizeCollectionViewCell.h */,
+				32D4490D202A5B20002E0685 /* CustomizeCollectionViewCell.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		32D44919202CDC5F002E0685 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32D4491A202CDCC2002E0685 /* Entry.h */,
+				32D4491B202CDCC2002E0685 /* Entry.m */,
+				32E8F72720336773009BBB18 /* RLMImage.h */,
+				32E8F72820336773009BBB18 /* RLMImage.m */,
+				32E8F72A20336AAB009BBB18 /* RLMLocation.h */,
+				32E8F72B20336AAB009BBB18 /* RLMLocation.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +361,8 @@
 				3215A3C51FD35C3400E0215C /* Sources */,
 				3215A3C61FD35C3400E0215C /* Frameworks */,
 				3215A3C71FD35C3400E0215C /* Resources */,
+				322294ED2010FCF3005BDDBB /* Embed Frameworks */,
+				32D44914202CD96C002E0685 /* Strip Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,9 +459,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E641F12020D5D00003F6BC /* Main.storyboard in Resources */,
 				3215A3DC1FD35C3500E0215C /* LaunchScreen.storyboard in Resources */,
 				3215A3D91FD35C3500E0215C /* Assets.xcassets in Resources */,
-				3215A3D71FD35C3500E0215C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,18 +481,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32D44914202CD96C002E0685 /* Strip Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Strip Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3215A3C51FD35C3400E0215C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32D4490E202A5B20002E0685 /* CustomizeCollectionViewCell.m in Sources */,
 				3215A3D41FD35C3500E0215C /* SecondViewController.m in Sources */,
 				3215A4031FD370DA00E0215C /* ThirdViewController.m in Sources */,
+				32E8F73220361447009BBB18 /* MainUIDelegate.m in Sources */,
+				326F916B2020316800BE4981 /* EntryNavigationController.m in Sources */,
 				328B7CFC1FD3A9C800CCE064 /* UIViewController+Styler.m in Sources */,
 				3215A3CE1FD35C3500E0215C /* AppDelegate.m in Sources */,
+				32D4490B20267217002E0685 /* CustomizeViewController.m in Sources */,
+				32D44911202A5D86002E0685 /* UIImage+Insets.m in Sources */,
+				32E6422620212BA30003F6BC /* TImelineEntryController.m in Sources */,
+				32E8F72920336773009BBB18 /* RLMImage.m in Sources */,
+				32D4491C202CDCC2002E0685 /* Entry.m in Sources */,
 				3215A3DF1FD35C3500E0215C /* main.m in Sources */,
+				32E8F72F203394A2009BBB18 /* AddToMapViewController.m in Sources */,
 				3215A40B1FD3722900E0215C /* Styler.m in Sources */,
+				326F916E2020369A00BE4981 /* UITextField+Placeholders.m in Sources */,
 				328B7D4A1FD73D5E00CCE064 /* GoalTableViewCell.m in Sources */,
+				32D44917202CDA1D002E0685 /* DataStore.m in Sources */,
+				32E8F72C20336AAB009BBB18 /* RLMLocation.m in Sources */,
 				328B7D451FD4BFA800CCE064 /* User.xcdatamodeld in Sources */,
 				3215A3D11FD35C3500E0215C /* FirstViewController.m in Sources */,
 			);
@@ -411,14 +559,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3215A3D51FD35C3500E0215C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3215A3D61FD35C3500E0215C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3215A3DA1FD35C3500E0215C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -538,12 +678,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z9S567B34;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = uDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrijko.uDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -552,12 +698,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z9S567B34;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = uDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrijko.uDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

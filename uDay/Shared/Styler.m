@@ -30,6 +30,9 @@
         case LightBlue:
             return [UIColor colorWithRed:77.0f/255.0f green:115.0f/255.0f blue:255.0f/255.0f alpha:1.0f];
             break;
+        case LightOrange:
+            return [UIColor colorWithRed:255.0f/255.0f green:115.0f/255.0f blue:77.0f/255.0f alpha:1.0f];
+            break;
         case DarkBlue:
             return [UIColor blueColor];
             break;
@@ -50,6 +53,9 @@
             break;
         case BarGrayTranslucent:
             return [UIColor colorWithRed:45.0f/255.0f green:45.0f/255.0f blue:45.0f/255.0f alpha:1.0f];
+            break;
+        case EditableBackgroundGray:
+            return [UIColor colorWithRed:40.0f/255.0f green:40.0f/255.0f blue:40.0f/255.0f alpha:1.0f];
             break;
         default:
             return [UIColor clearColor];
