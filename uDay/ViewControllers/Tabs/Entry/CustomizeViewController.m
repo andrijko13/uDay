@@ -133,6 +133,10 @@
         }];
         if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypePhotoLibrary]) {
             UIImagePickerController *pickerView =[[UIImagePickerController alloc]init];
+            pickerView.navigationBar.translucent = NO;
+            pickerView.navigationBar.barTintColor = [UIColor colorWithRed:0.147 green:0.413 blue:0.737 alpha:1];
+            pickerView.navigationBar.tintColor = [UIColor whiteColor];
+            pickerView.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
             pickerView.allowsEditing = YES;
             pickerView.delegate = self;
             pickerView.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;

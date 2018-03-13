@@ -43,6 +43,13 @@
     return [Entry objectsWhere:clause];
 }
 
+-(void)removeAllEntries {
+    RLMRealm *realm = [RLMRealm defaultRealm];
+    [realm transactionWithBlock:^{
+        [realm deleteAllObjects];
+    }];
+}
+
 - (id)init {
     if (self = [super init]) {
         // custom init

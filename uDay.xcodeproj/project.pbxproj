@@ -22,6 +22,12 @@
 		328B7CFC1FD3A9C800CCE064 /* UIViewController+Styler.m in Sources */ = {isa = PBXBuildFile; fileRef = 328B7CFB1FD3A9C800CCE064 /* UIViewController+Styler.m */; };
 		328B7D451FD4BFA800CCE064 /* User.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 328B7D431FD4BFA800CCE064 /* User.xcdatamodeld */; };
 		328B7D4A1FD73D5E00CCE064 /* GoalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 328B7D491FD73D5E00CCE064 /* GoalTableViewCell.m */; };
+		32971BBF2051B0C800D89F80 /* SettingDeleteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32971BBE2051B0C800D89F80 /* SettingDeleteCell.xib */; };
+		32971BC22051B17100D89F80 /* SettingDeleteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32971BC12051B17100D89F80 /* SettingDeleteTableViewCell.m */; };
+		32C645102051972D00C6D823 /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C6450D2051972D00C6D823 /* SettingTableViewCell.xib */; };
+		32C645142051974F00C6D823 /* SettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C645132051974F00C6D823 /* SettingTableViewCell.m */; };
+		32C645172051989300C6D823 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C645162051989300C6D823 /* SettingsViewController.m */; };
+		32C6451A2051A27000C6D823 /* SettingNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C645192051A27000C6D823 /* SettingNavigationViewController.m */; };
 		32D4490B20267217002E0685 /* CustomizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D4490A20267217002E0685 /* CustomizeViewController.m */; };
 		32D4490E202A5B20002E0685 /* CustomizeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D4490D202A5B20002E0685 /* CustomizeCollectionViewCell.m */; };
 		32D44911202A5D86002E0685 /* UIImage+Insets.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D44910202A5D86002E0685 /* UIImage+Insets.m */; };
@@ -103,6 +109,17 @@
 		328B7D441FD4BFA800CCE064 /* User.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = User.xcdatamodel; sourceTree = "<group>"; };
 		328B7D481FD73D5E00CCE064 /* GoalTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoalTableViewCell.h; sourceTree = "<group>"; };
 		328B7D491FD73D5E00CCE064 /* GoalTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoalTableViewCell.m; sourceTree = "<group>"; };
+		32971BBE2051B0C800D89F80 /* SettingDeleteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingDeleteCell.xib; sourceTree = "<group>"; };
+		32971BC02051B17100D89F80 /* SettingDeleteTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingDeleteTableViewCell.h; sourceTree = "<group>"; };
+		32971BC12051B17100D89F80 /* SettingDeleteTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingDeleteTableViewCell.m; sourceTree = "<group>"; };
+		32C6450B2051972C00C6D823 /* uDay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "uDay-Bridging-Header.h"; sourceTree = "<group>"; };
+		32C6450D2051972D00C6D823 /* SettingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
+		32C645122051974F00C6D823 /* SettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingTableViewCell.h; sourceTree = "<group>"; };
+		32C645132051974F00C6D823 /* SettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewCell.m; sourceTree = "<group>"; };
+		32C645152051989300C6D823 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		32C645162051989300C6D823 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		32C645182051A27000C6D823 /* SettingNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingNavigationViewController.h; sourceTree = "<group>"; };
+		32C645192051A27000C6D823 /* SettingNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingNavigationViewController.m; sourceTree = "<group>"; };
 		32D4490920267217002E0685 /* CustomizeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomizeViewController.h; sourceTree = "<group>"; };
 		32D4490A20267217002E0685 /* CustomizeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomizeViewController.m; sourceTree = "<group>"; };
 		32D4490C202A5B20002E0685 /* CustomizeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomizeCollectionViewCell.h; sourceTree = "<group>"; };
@@ -290,6 +307,10 @@
 		326F916820202D5700BE4981 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				32C645152051989300C6D823 /* SettingsViewController.h */,
+				32C645162051989300C6D823 /* SettingsViewController.m */,
+				32C645182051A27000C6D823 /* SettingNavigationViewController.h */,
+				32C645192051A27000C6D823 /* SettingNavigationViewController.m */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -334,6 +355,13 @@
 				328B7D491FD73D5E00CCE064 /* GoalTableViewCell.m */,
 				32D4490C202A5B20002E0685 /* CustomizeCollectionViewCell.h */,
 				32D4490D202A5B20002E0685 /* CustomizeCollectionViewCell.m */,
+				32C645122051974F00C6D823 /* SettingTableViewCell.h */,
+				32C645132051974F00C6D823 /* SettingTableViewCell.m */,
+				32C6450D2051972D00C6D823 /* SettingTableViewCell.xib */,
+				32971BC02051B17100D89F80 /* SettingDeleteTableViewCell.h */,
+				32971BC12051B17100D89F80 /* SettingDeleteTableViewCell.m */,
+				32971BBE2051B0C800D89F80 /* SettingDeleteCell.xib */,
+				32C6450B2051972C00C6D823 /* uDay-Bridging-Header.h */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -420,6 +448,7 @@
 				TargetAttributes = {
 					3215A3C81FD35C3400E0215C = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					3215A3E31FD35C3500E0215C = {
@@ -461,6 +490,8 @@
 			files = (
 				32E641F12020D5D00003F6BC /* Main.storyboard in Resources */,
 				3215A3DC1FD35C3500E0215C /* LaunchScreen.storyboard in Resources */,
+				32971BBF2051B0C800D89F80 /* SettingDeleteCell.xib in Resources */,
+				32C645102051972D00C6D823 /* SettingTableViewCell.xib in Resources */,
 				3215A3D91FD35C3500E0215C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,13 +536,17 @@
 			files = (
 				32D4490E202A5B20002E0685 /* CustomizeCollectionViewCell.m in Sources */,
 				3215A3D41FD35C3500E0215C /* SecondViewController.m in Sources */,
+				32C645142051974F00C6D823 /* SettingTableViewCell.m in Sources */,
+				32C645172051989300C6D823 /* SettingsViewController.m in Sources */,
 				3215A4031FD370DA00E0215C /* ThirdViewController.m in Sources */,
 				32E8F73220361447009BBB18 /* MainUIDelegate.m in Sources */,
 				326F916B2020316800BE4981 /* EntryNavigationController.m in Sources */,
 				328B7CFC1FD3A9C800CCE064 /* UIViewController+Styler.m in Sources */,
 				3215A3CE1FD35C3500E0215C /* AppDelegate.m in Sources */,
+				32971BC22051B17100D89F80 /* SettingDeleteTableViewCell.m in Sources */,
 				32D4490B20267217002E0685 /* CustomizeViewController.m in Sources */,
 				32D44911202A5D86002E0685 /* UIImage+Insets.m in Sources */,
+				32C6451A2051A27000C6D823 /* SettingNavigationViewController.m in Sources */,
 				32E6422620212BA30003F6BC /* TImelineEntryController.m in Sources */,
 				32E8F72920336773009BBB18 /* RLMImage.m in Sources */,
 				32D4491C202CDCC2002E0685 /* Entry.m in Sources */,
@@ -678,6 +713,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z9S567B34;
@@ -690,6 +726,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrijko.uDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "uDay/Views/uDay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -698,6 +737,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z9S567B34;
@@ -710,6 +750,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrijko.uDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "uDay/Views/uDay-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

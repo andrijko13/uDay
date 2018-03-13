@@ -28,6 +28,10 @@
     [tableView setAllowsSelection: false];
 }
 
+-(void)viewWillAppear:(BOOL)animated {
+    [tableView reloadData];
+}
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [[[DataStore main] fetchEntries] count];
 }

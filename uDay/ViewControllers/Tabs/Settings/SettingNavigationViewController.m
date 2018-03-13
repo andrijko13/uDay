@@ -1,18 +1,19 @@
 //
-//  EntryNavigationController.m
+//  SettingNavigationViewController.m
 //  uDay
 //
-//  Created by Andriko on 1/29/18.
+//  Created by Andriko on 3/8/18.
 //  Copyright © 2018 Andriko. All rights reserved.
 //
 
-#import "EntryNavigationController.h"
+#import "SettingNavigationViewController.h"
 
-@interface EntryNavigationController ()
+@interface SettingNavigationViewController ()
 
 @end
 
-@implementation EntryNavigationController
+@implementation SettingNavigationViewController
+@synthesize navBar;
 
 - (void)viewDidLoad {
     [self style];
@@ -41,5 +42,6 @@
 {
     return UIStatusBarStyleLightContent;
 }
+
 
 @end

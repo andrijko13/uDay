@@ -57,6 +57,12 @@
         case EditableBackgroundGray:
             return [UIColor colorWithRed:40.0f/255.0f green:40.0f/255.0f blue:40.0f/255.0f alpha:1.0f];
             break;
+        case LightRed:
+            return [UIColor colorWithRed:255.0f/255.0f green:122.0f/255.0f blue:118.0f/255.0f alpha:1.0f];
+            break;
+        case Clear:
+            return [UIColor clearColor];
+            break;
         default:
             return [UIColor clearColor];
             break;

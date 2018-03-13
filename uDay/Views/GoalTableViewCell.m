@@ -10,7 +10,7 @@
 
 @interface GoalTableViewCell()
 {
-    
+    CALayer *lineGradient;
 }
 @end
 
@@ -61,11 +61,12 @@
 -(void) style {
     if (_entry.isGoal) { //// ----------> GOAL
         [tagView setBackgroundColor:[[Styler main] colorForKey:LightOrange]];
+        [timelineImageView setBackgroundColor:[[Styler main] colorForKey:LightOrange]];
         if (_entry.complete) {
             [tagView setBackgroundColor:[UIColor greenColor]];
         } else if (_entry.setDate) {
             if ([self isDay:[NSDate date] laterThanDay:_entry.setDate]) {
-                [tagView setBackgroundColor:[UIColor redColor]];
+                [tagView setBackgroundColor:[[Styler main] colorForKey:LightRed]];
             } else {
                 [tagView setBackgroundColor:[[Styler main] colorForKey:LightOrange]];
             }
@@ -82,11 +83,16 @@
         }
     } else { //// -------------> Entry
         [tagView setBackgroundColor:[[Styler main] colorForKey:LightBlue]];
-        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-        [dateFormatter setDateStyle:NSDateFormatterShortStyle];
-        [dateFormatter setDateFormat:@"MM'/'dd'/'yyyy"];
-        NSString *formattedDate = [dateFormatter stringFromDate:_entry.setDate];
-        [self.tagText setText:[NSString stringWithFormat:@"%@",formattedDate]];
+        [timelineImageView setBackgroundColor:[[Styler main] colorForKey:LightBlue]];
+        if (_entry.setDate) {
+            NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+            [dateFormatter setDateStyle:NSDateFormatterShortStyle];
+            [dateFormatter setDateFormat:@"MM'/'dd'/'yyyy"];
+            NSString *formattedDate = [dateFormatter stringFromDate:_entry.setDate];
+            [self.tagText setText:[NSString stringWithFormat:@"%@",formattedDate]];
+        } else {
+            [self.tagText setText:[NSString stringWithFormat:@"-"]];
+        }
     }
 
     [title setText:_entry.title];
@@ -129,7 +135,12 @@
     gradient.startPoint = CGPointMake(0.5,0);
     gradient.endPoint = CGPointMake(0.5,1);
 
+    if (lineGradient != nil) {
+        [lineGradient removeFromSuperlayer];
+    }
+
     [self.timelineLine.layer insertSublayer:gradient atIndex:0];
+    lineGradient  = gradient;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

@@ -26,6 +26,8 @@ typedef enum {
     BarGray,
     BarGrayTranslucent,
     EditableBackgroundGray,
+    LightRed,
+    Clear,
 } Color;
 
 - (UIColor *)colorForKey:(Color)color;

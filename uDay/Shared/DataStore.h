@@ -15,4 +15,5 @@
 -(void)addEntry:(Entry *)entry;
 -(RLMResults<Entry *>*) fetchEntries;
 -(RLMResults<Entry *>*) fetchEntriesWhere:(NSString *)clause;
+-(void)removeAllEntries;
 @end
