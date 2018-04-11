@@ -17,6 +17,8 @@
 		3215A3F41FD35C3500E0215C /* uDayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A3F31FD35C3500E0215C /* uDayUITests.m */; };
 		3215A4031FD370DA00E0215C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A4021FD370DA00E0215C /* ThirdViewController.m */; };
 		3215A40B1FD3722900E0215C /* Styler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3215A40A1FD3722900E0215C /* Styler.m */; };
+		32636432207DE25E00355E0B /* ViewEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32636431207DE25E00355E0B /* ViewEntryViewController.m */; };
+		32636435207E01A100355E0B /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 32636434207E01A100355E0B /* CustomAnnotation.m */; };
 		326F916B2020316800BE4981 /* EntryNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 326F916A2020316800BE4981 /* EntryNavigationController.m */; };
 		326F916E2020369A00BE4981 /* UITextField+Placeholders.m in Sources */ = {isa = PBXBuildFile; fileRef = 326F916D2020369A00BE4981 /* UITextField+Placeholders.m */; };
 		328B7CFC1FD3A9C800CCE064 /* UIViewController+Styler.m in Sources */ = {isa = PBXBuildFile; fileRef = 328B7CFB1FD3A9C800CCE064 /* UIViewController+Styler.m */; };
@@ -24,6 +26,9 @@
 		328B7D4A1FD73D5E00CCE064 /* GoalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 328B7D491FD73D5E00CCE064 /* GoalTableViewCell.m */; };
 		32971BBF2051B0C800D89F80 /* SettingDeleteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32971BBE2051B0C800D89F80 /* SettingDeleteCell.xib */; };
 		32971BC22051B17100D89F80 /* SettingDeleteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32971BC12051B17100D89F80 /* SettingDeleteTableViewCell.m */; };
+		32C37937205AAA9F00C9783F /* UIView+constrainToParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C37934205AAA9F00C9783F /* UIView+constrainToParent.swift */; };
+		32C37938205AAA9F00C9783F /* PulleyPassthroughScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C37935205AAA9F00C9783F /* PulleyPassthroughScrollView.swift */; };
+		32C37939205AAA9F00C9783F /* PulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C37936205AAA9F00C9783F /* PulleyViewController.swift */; };
 		32C645102051972D00C6D823 /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C6450D2051972D00C6D823 /* SettingTableViewCell.xib */; };
 		32C645142051974F00C6D823 /* SettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C645132051974F00C6D823 /* SettingTableViewCell.m */; };
 		32C645172051989300C6D823 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C645162051989300C6D823 /* SettingsViewController.m */; };
@@ -99,6 +104,10 @@
 		3215A4091FD3722900E0215C /* Styler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Styler.h; sourceTree = "<group>"; };
 		3215A40A1FD3722900E0215C /* Styler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Styler.m; sourceTree = "<group>"; };
 		322294EA2010FCEC005BDDBB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		32636430207DE25E00355E0B /* ViewEntryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewEntryViewController.h; sourceTree = "<group>"; };
+		32636431207DE25E00355E0B /* ViewEntryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewEntryViewController.m; sourceTree = "<group>"; };
+		32636433207E01A100355E0B /* CustomAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		32636434207E01A100355E0B /* CustomAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
 		326F91692020316800BE4981 /* EntryNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryNavigationController.h; sourceTree = "<group>"; };
 		326F916A2020316800BE4981 /* EntryNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntryNavigationController.m; sourceTree = "<group>"; };
 		326F916C2020369A00BE4981 /* UITextField+Placeholders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Placeholders.h"; sourceTree = "<group>"; };
@@ -112,6 +121,9 @@
 		32971BBE2051B0C800D89F80 /* SettingDeleteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingDeleteCell.xib; sourceTree = "<group>"; };
 		32971BC02051B17100D89F80 /* SettingDeleteTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingDeleteTableViewCell.h; sourceTree = "<group>"; };
 		32971BC12051B17100D89F80 /* SettingDeleteTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingDeleteTableViewCell.m; sourceTree = "<group>"; };
+		32C37934205AAA9F00C9783F /* UIView+constrainToParent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+constrainToParent.swift"; sourceTree = "<group>"; };
+		32C37935205AAA9F00C9783F /* PulleyPassthroughScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulleyPassthroughScrollView.swift; sourceTree = "<group>"; };
+		32C37936205AAA9F00C9783F /* PulleyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulleyViewController.swift; sourceTree = "<group>"; };
 		32C6450B2051972C00C6D823 /* uDay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "uDay-Bridging-Header.h"; sourceTree = "<group>"; };
 		32C6450D2051972D00C6D823 /* SettingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
 		32C645122051974F00C6D823 /* SettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingTableViewCell.h; sourceTree = "<group>"; };
@@ -285,6 +297,8 @@
 				3215A4021FD370DA00E0215C /* ThirdViewController.m */,
 				32E6422420212BA30003F6BC /* TImelineEntryController.h */,
 				32E6422520212BA30003F6BC /* TImelineEntryController.m */,
+				32636430207DE25E00355E0B /* ViewEntryViewController.h */,
+				32636431207DE25E00355E0B /* ViewEntryViewController.m */,
 			);
 			path = Timeline;
 			sourceTree = "<group>";
@@ -362,6 +376,9 @@
 				32971BC12051B17100D89F80 /* SettingDeleteTableViewCell.m */,
 				32971BBE2051B0C800D89F80 /* SettingDeleteCell.xib */,
 				32C6450B2051972C00C6D823 /* uDay-Bridging-Header.h */,
+				32C37935205AAA9F00C9783F /* PulleyPassthroughScrollView.swift */,
+				32C37936205AAA9F00C9783F /* PulleyViewController.swift */,
+				32C37934205AAA9F00C9783F /* UIView+constrainToParent.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -371,6 +388,8 @@
 			children = (
 				32D4491A202CDCC2002E0685 /* Entry.h */,
 				32D4491B202CDCC2002E0685 /* Entry.m */,
+				32636433207E01A100355E0B /* CustomAnnotation.h */,
+				32636434207E01A100355E0B /* CustomAnnotation.m */,
 				32E8F72720336773009BBB18 /* RLMImage.h */,
 				32E8F72820336773009BBB18 /* RLMImage.m */,
 				32E8F72A20336AAB009BBB18 /* RLMLocation.h */,
@@ -535,16 +554,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				32D4490E202A5B20002E0685 /* CustomizeCollectionViewCell.m in Sources */,
+				32C37937205AAA9F00C9783F /* UIView+constrainToParent.swift in Sources */,
 				3215A3D41FD35C3500E0215C /* SecondViewController.m in Sources */,
 				32C645142051974F00C6D823 /* SettingTableViewCell.m in Sources */,
 				32C645172051989300C6D823 /* SettingsViewController.m in Sources */,
 				3215A4031FD370DA00E0215C /* ThirdViewController.m in Sources */,
 				32E8F73220361447009BBB18 /* MainUIDelegate.m in Sources */,
+				32C37939205AAA9F00C9783F /* PulleyViewController.swift in Sources */,
 				326F916B2020316800BE4981 /* EntryNavigationController.m in Sources */,
 				328B7CFC1FD3A9C800CCE064 /* UIViewController+Styler.m in Sources */,
+				32C37938205AAA9F00C9783F /* PulleyPassthroughScrollView.swift in Sources */,
 				3215A3CE1FD35C3500E0215C /* AppDelegate.m in Sources */,
 				32971BC22051B17100D89F80 /* SettingDeleteTableViewCell.m in Sources */,
 				32D4490B20267217002E0685 /* CustomizeViewController.m in Sources */,
+				32636432207DE25E00355E0B /* ViewEntryViewController.m in Sources */,
+				32636435207E01A100355E0B /* CustomAnnotation.m in Sources */,
 				32D44911202A5D86002E0685 /* UIImage+Insets.m in Sources */,
 				32C6451A2051A27000C6D823 /* SettingNavigationViewController.m in Sources */,
 				32E6422620212BA30003F6BC /* TImelineEntryController.m in Sources */,
@@ -716,6 +740,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3Z9S567B34;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -740,6 +765,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3Z9S567B34;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -759,6 +785,7 @@
 		3215A3FC1FD35C3500E0215C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z9S567B34;
@@ -774,6 +801,7 @@
 		3215A3FD1FD35C3500E0215C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z9S567B34;
@@ -789,6 +817,7 @@
 		3215A3FF1FD35C3500E0215C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z9S567B34;
 				INFOPLIST_FILE = uDayUITests/Info.plist;
@@ -803,6 +832,7 @@
 		3215A4001FD35C3500E0215C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z9S567B34;
 				INFOPLIST_FILE = uDayUITests/Info.plist;

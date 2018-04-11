@@ -11,4 +11,6 @@
 @interface RLMLocation : RLMObject
 @property double longitude;
 @property double latitude;
+@property NSString *name;
+@property NSString *desc;
 @end

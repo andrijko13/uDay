@@ -48,6 +48,9 @@
         case White:
             return [UIColor whiteColor];
             break;
+        case LightWhite:
+            return [UIColor colorWithRed:230.0f/255.0f green:230.0f/255.0f blue:230.0f/255.0f alpha:1.0f];
+            break;
         case BarGray:
             return [UIColor colorWithRed:21.0f/255.0f green:21.0f/255.0f blue:21.0f/255.0f alpha:1.0f];
             break;
@@ -63,10 +66,18 @@
         case Clear:
             return [UIColor clearColor];
             break;
+        case LightGreen:
+            return [UIColor colorWithRed:49.0f/255.0f green:181.0f/255.0f blue:29.0f/255.0f alpha:1.0f];
+            break;
         default:
             return [UIColor clearColor];
             break;
     }
+}
+
+- (UIColor *)colorForKey:(Color)color alpha:(CGFloat)alpha {
+    UIColor *result = [self colorForKey:color];
+    return [result colorWithAlphaComponent:alpha];
 }
 
 - (void)dealloc {

@@ -11,4 +11,6 @@
 @implementation RLMLocation
 @synthesize latitude;
 @synthesize longitude;
+@synthesize name;
+@synthesize desc;
 @end

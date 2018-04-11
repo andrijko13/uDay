@@ -14,6 +14,7 @@
 @interface GoalTableViewCell : UITableViewCell
 {
     BOOL isAfterGoal;
+    int isAfterType;
 }
 @property (weak, nonatomic) IBOutlet UILabel *title;
 @property (weak, nonatomic) IBOutlet UIView *timelineLine;
@@ -23,6 +24,8 @@
 @property (weak, nonatomic) IBOutlet UIImageView *timelineImageView;
 @property (weak, nonatomic) Entry *entry;
 
--(void)setEntry:(Entry *)entry afterGoal: (BOOL)afterGoal;
+-(void)setEntry:(Entry *)entry afterGoal: (BOOL)afterGoal afterType: (int)type;
 -(void)newSetup;
+-(void)styleColors;
+
 @end

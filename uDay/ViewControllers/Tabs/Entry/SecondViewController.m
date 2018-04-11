@@ -87,7 +87,6 @@
 - (void)viewDidLoad {
     [self style];
     self.context = nil;
-    
 
     [super viewDidLoad];
 }
@@ -169,6 +168,7 @@
         e.complete = false;
 
         vc.context = e;
+        vc.par = self;
     }
 }
 

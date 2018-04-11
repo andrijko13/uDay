@@ -35,12 +35,26 @@
 //    });
 }
 
+-(void)write:(void (^)(void))updates {
+    RLMRealm *realm = [RLMRealm defaultRealm];
+    [realm transactionWithBlock:^{
+        updates();
+    }];
+}
+
+-(void)removeEntry:(RLMObject *)object {
+    RLMRealm *realm = [RLMRealm defaultRealm];
+    [realm transactionWithBlock:^{
+        [realm deleteObject:object];
+    }];
+}
+
 -(RLMResults<Entry *>*) fetchEntries {
-    return [Entry allObjects];
+    return [[Entry allObjects] sortedResultsUsingKeyPath:@"setDate" ascending:true];
 }
 
 -(RLMResults<Entry *>*) fetchEntriesWhere:(NSString *)clause {
-    return [Entry objectsWhere:clause];
+    return [[Entry objectsWhere:clause] sortedResultsUsingKeyPath:@"setDate" ascending:true];
 }
 
 -(void)removeAllEntries {

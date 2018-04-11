@@ -25,6 +25,7 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
+    
     // Initialization code
 }
 
@@ -38,8 +39,14 @@
     if ([comp1 year] > [comp2 year]) {
         return true;
     }
+    if ([comp2 year] > [comp1 year]) {
+        return false;
+    }
     if ([comp1 month] > [comp2 month]) {
         return true;
+    }
+    if ([comp2 month] > [comp1 month]) {
+        return false;
     }
     if ([comp1 day] > [comp2 day]) {
         return true;
@@ -48,31 +55,57 @@
 }
 
 
--(void)setEntry:(Entry *)entry afterGoal: (BOOL)afterGoal {
+-(void)setEntry:(Entry *)entry afterGoal: (BOOL)afterGoal afterType:(int)type{
     _entry = entry;
     isAfterGoal = afterGoal;
-    [self style];
+    isAfterType = type;
+    [self styleCell];
 }
 
 -(Entry *)entry {
     return _entry;
 }
 
--(void) style {
+-(Color)colorForEntry:(Entry *)entry {
+    if (entry.complete) {
+        return LightOrange;
+    }
+    if (entry.setDate) {
+        if ([self isDay:[NSDate date] laterThanDay:entry.setDate]) {
+            return LightRed;
+        }
+    }
+
+    return LightOrange;
+}
+
+-(Color)colorForType:(int)type {
+    switch (type) {
+        case 1:
+            return LightOrange;
+            break;
+        case 2:
+            return LightRed;
+            break;
+
+        default:
+            return LightOrange;
+            break;
+    }}
+
+-(void)styleColors {
+    [tagView setBackgroundColor:[[Styler main] colorForKey:[self colorForEntry:_entry]]];
+}
+
+-(void) styleCell {
     if (_entry.isGoal) { //// ----------> GOAL
         [tagView setBackgroundColor:[[Styler main] colorForKey:LightOrange]];
         [timelineImageView setBackgroundColor:[[Styler main] colorForKey:LightOrange]];
-        if (_entry.complete) {
-            [tagView setBackgroundColor:[UIColor greenColor]];
-        } else if (_entry.setDate) {
-            if ([self isDay:[NSDate date] laterThanDay:_entry.setDate]) {
-                [tagView setBackgroundColor:[[Styler main] colorForKey:LightRed]];
-            } else {
-                [tagView setBackgroundColor:[[Styler main] colorForKey:LightOrange]];
-            }
-        }
+        [self styleColors];
 
-        if (_entry.setDate) {
+        if (_entry.complete) {
+            [self.tagText setText:@"Done!"];
+        } else if (_entry.setDate) {
             NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
             [dateFormatter setDateStyle:NSDateFormatterShortStyle];
             [dateFormatter setDateFormat:@"MM'/'dd'/'yyyy"];

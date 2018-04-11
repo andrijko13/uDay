@@ -15,5 +15,7 @@
 -(void)addEntry:(Entry *)entry;
 -(RLMResults<Entry *>*) fetchEntries;
 -(RLMResults<Entry *>*) fetchEntriesWhere:(NSString *)clause;
+-(void)write:(void (^)(void))updates;
 -(void)removeAllEntries;
+-(void)removeEntry:(RLMObject *)object;
 @end

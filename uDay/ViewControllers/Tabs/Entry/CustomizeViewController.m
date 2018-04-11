@@ -7,6 +7,7 @@
 //
 
 #import "CustomizeViewController.h"
+#import "SecondViewController.h"
 
 @interface CustomizeViewController ()
 {
@@ -21,6 +22,7 @@
 @synthesize addToMapButton;
 @synthesize imagesCollectionView;
 @synthesize context;
+@synthesize par;
 
 - (void)style {
     [self.view setBackgroundColor: [[Styler main] colorForKey:DarkGray]];
@@ -107,15 +109,18 @@
     return 12;
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if ([segue.identifier isEqualToString:@"addToMap"] && [segue destinationViewController].class == [AddToMapViewController class]) {
+        AddToMapViewController *vc = [segue destinationViewController];
+
+        vc.delegate = self;
+    }
 }
-*/
+
 
 - (void)addImage {
     UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:@"Add Image" message:@"Would you like to add an image?" preferredStyle:UIAlertControllerStyleActionSheet];
@@ -172,6 +177,10 @@
 
 }
 
+-(void)addLocation:(RLMLocation *)location {
+    context.location = location;
+}
+
 - (IBAction)doneButtonClicked:(id)sender {
     Entry *e = context;
     for (UIImage *image in images) {
@@ -182,5 +191,6 @@
 
     [[DataStore main] addEntry:e];
     [self.navigationController popToRootViewControllerAnimated:true];
+    [par clearTapped:NULL];
 }
 @end
